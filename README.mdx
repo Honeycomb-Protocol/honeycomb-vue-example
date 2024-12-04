@@ -1,0 +1,61 @@
+# Honeycomb Protocol Usage Demos (Vue.js)
+
+This repository contains a collection of demos that showcase how to use the Honeycomb Protocol with a Vue.js implementation.
+
+## Steps
+
+There are two ways to set up the demos:
+
+### 1. Update the `.env` File
+
+1. Before proceeding with the setup, you need to update the `.env` file at the root of this repository with the following values:
+
+```
+RPC_ENDPOINT=<Public RPC Endpoint>
+API_URL=<Public API URL>
+HPL_PROJECT_PUBLIC_KEY=<Your HPL Project Public Key>
+```
+
+Ensure that you replace `<Your Honeycomb Project Public Key>` with your actual project key.
+
+### 2. Install Dependencies
+
+Run the following command to install the project dependencies:
+
+```bash
+yarn
+```
+
+OR
+
+```bash
+npm install
+```
+
+### 3. Run the Project
+
+To start the project locally, run:
+
+```bash
+yarn serve
+```
+
+OR
+
+```bash
+npm run serve
+```
+
+Your project will now be accessible on http://localhost:8080 (or another port as configured).
+
+# Vue.js Specific Notes
+
+This project demonstrates the integration of Honeycomb Protocol within a Vue.js application.
+
+## Key Features:
+
+- **Wallet Connection**: Using Solana wallet adapters for seamless integration.
+- **Profile Management**: Create and fetch profiles using the Honeycomb Protocol.
+- **Transaction Submission**: Handle transactions with proper signing and submission using Solana's Web3.js.
+
+For more details, refer to the official [Honeycomb Protocol Documentation](https://docs.honeycombprotocol.com/).
